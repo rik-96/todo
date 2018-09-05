@@ -15,7 +15,7 @@ function del(evt){
 
 function createListEle(){
   var lip=document.createElement("li");
-  var li=document.createElement("span");
+  var li=document.createElement("p");
   var but2 = document.createElement("button");
   but2.setAttribute("style", "background-color:red;color: white;border-radius: 12px;padding:1%")
   but2.appendChild(document.createTextNode("Delete"));
